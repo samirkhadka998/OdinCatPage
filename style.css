@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav ul, section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: #1f2937;
+    color: #fff;
+    padding: 15px 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.headingImage {
+    flex: 1;
+    height: 298px;
+    
+}
+
+.headingDetail {
+    margin-top: 40px;
+    display: flex;
+}
+
+.headingInfo {
+    text-align: left;
+    flex: 1;
+}
