@@ -19,31 +19,69 @@ nav ul, section ul {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 15px auto 80px;
 }
 
 header {
     background: #1f2937;
     color: #fff;
-    padding: 15px 100px;
+    padding: 15px 0;
 }
 
 nav ul {
     display: flex;
     gap: 20px;
 }
-
 .headingImage {
+    display: flex;
     flex: 1;
-    height: 298px;
-    
+    flex-direction: column;
+}
+.headingImage img {
+    height: 223px;
+}
+.headingDetail {
+    /* margin-top: 40px; */
+    display: flex;
+    margin: 0 auto;
 }
 
-.headingDetail {
-    margin-top: 40px;
-    display: flex;
+.headingDetail, nav, section ul{
+    width: 50%;
+
 }
 
 .headingInfo {
     text-align: left;
     flex: 1;
+}
+
+button {
+    background: #3b82f6;
+    padding: 3px 12px;
+    border-radius: 5px;
+}
+
+.headingDetail button{
+    color: #fff;
+    border: 1px solid #3b82f6;
+}
+
+.headingInfo h1 {
+    font-size: 52px;
+}
+
+.headingInfo p {
+    margin: 8px 0;
+}
+
+section ul {
+    display: flex;
+}
+
+section img {
+    border-radius: 9px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
 }
