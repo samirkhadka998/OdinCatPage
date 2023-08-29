@@ -48,6 +48,7 @@ nav ul {
 
 .headingDetail, nav, section ul{
     width: 50%;
+    margin: 0 auto;
 
 }
 
@@ -84,4 +85,17 @@ section img {
     width: 100px;
     height: 100px;
     border: 2px solid blue;
+}
+
+section {
+    background: white;
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin: 20px 0;
+}
+
+section p {
+    font-size: 12px;
 }
