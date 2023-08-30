@@ -76,7 +76,7 @@ button {
 }
 
 .headingInfo h1 {
-    font-size: 52px;
+    font-size: 55px;
 }
 
 .headingInfo p {
@@ -123,6 +123,7 @@ article h2 {
 article p {
     text-align: right;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 aside {
@@ -133,6 +134,7 @@ aside {
     background: #3b82f6;
     color: #fff;
     padding: 22px 0;
+    justify-content: space-around;
     /* margin: 30px 0 30px 0; */
 }
 
