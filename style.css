@@ -10,7 +10,8 @@ body {
     text-align: center;
 }
 
-nav ul, section ul {
+nav ul,
+section ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -32,21 +33,28 @@ nav ul {
     display: flex;
     gap: 20px;
 }
+
 .headingImage {
     display: flex;
     flex: 1;
     flex-direction: column;
 }
+
 .headingImage img {
     height: 223px;
 }
+
 .headingDetail {
     /* margin-top: 40px; */
     display: flex;
     margin: 0 auto;
 }
 
-.headingDetail, nav, section ul{
+.headingDetail,
+nav,
+section ul,
+article h2,
+article p {
     width: 50%;
     margin: 0 auto;
 
@@ -63,7 +71,7 @@ button {
     border-radius: 5px;
 }
 
-.headingDetail button{
+.headingDetail button {
     color: #fff;
     border: 1px solid #3b82f6;
 }
@@ -98,4 +106,29 @@ section h2 {
 
 section p {
     font-size: 12px;
+}
+
+article {
+    background: #e5e7eb;
+    padding: 46px;
+    padding: 50px 0;
+}
+
+article h2 {
+    text-align: left;
+}
+
+article p {
+    text-align: right;
+
+}
+
+aside {
+    display: flex;
+    text-align: initial;
+    justify-content: center;
+    gap: 40px;
+    background: #3b82f6;
+    color: #fff;
+    padding: 22px 0;
 }
