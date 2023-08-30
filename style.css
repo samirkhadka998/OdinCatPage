@@ -34,6 +34,7 @@ header {
 nav ul {
     display: flex;
     gap: 20px;
+    color: #fff;
 }
 
 .headingImage {
@@ -43,11 +44,10 @@ nav ul {
 }
 
 .headingImage img {
-    height: 223px;
+    max-height: 230px;
 }
 
 .headingDetail {
-    /* margin-top: 40px; */
     display: flex;
     padding: 4% 0;
     margin: 0 auto;
@@ -85,12 +85,13 @@ button {
 
 section ul {
     display: flex;
+    gap: 5px;
 }
 
 section img {
     border-radius: 9px;
-    width: 100px;
-    height: 100px;
+    max-height: 200px;
+    max-width: 304px;
     border: 2px solid blue;
 }
 
@@ -104,7 +105,9 @@ section h2 {
 }
 
 section p {
-    font-size: 12px;
+    font-size: 13px;
+    width: 59%;
+    margin: 0 auto;
 }
 
 article {
@@ -133,9 +136,8 @@ aside {
     gap: 40px;
     background: #3b82f6;
     color: #fff;
-    padding: 22px 0;
+    padding: 22px 5px;
     justify-content: space-around;
-    /* margin: 30px 0 30px 0; */
 }
 
 
@@ -149,4 +151,15 @@ footer {
     background: #1f2937;
     padding: 2%;
     color: #fff;
+}
+
+.logo img {
+    width: 36px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
 }
