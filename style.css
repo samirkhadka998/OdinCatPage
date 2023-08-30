@@ -20,7 +20,9 @@ section ul {
 nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
     margin: 15px auto 80px;
+    padding: 1% 0;
 }
 
 header {
@@ -47,14 +49,11 @@ nav ul {
 .headingDetail {
     /* margin-top: 40px; */
     display: flex;
+    padding: 4% 0;
     margin: 0 auto;
 }
 
-.headingDetail,
-nav,
-section ul,
-article h2,
-article p {
+.headingDetail, nav, section ul, article h2, article p, aside {
     width: 50%;
     margin: 0 auto;
 
@@ -112,15 +111,18 @@ article {
     background: #e5e7eb;
     padding: 46px;
     padding: 50px 0;
+    margin-bottom: 30px;
 }
 
 article h2 {
     text-align: left;
+    font-style: italic;
+    font-weight: 100;
 }
 
 article p {
     text-align: right;
-
+    font-weight: bold;
 }
 
 aside {
@@ -131,4 +133,18 @@ aside {
     background: #3b82f6;
     color: #fff;
     padding: 22px 0;
+    /* margin: 30px 0 30px 0; */
+}
+
+
+aside button {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+footer {
+    margin-top: 30px;
+    background: #1f2937;
+    padding: 2%;
+    color: #fff;
 }
